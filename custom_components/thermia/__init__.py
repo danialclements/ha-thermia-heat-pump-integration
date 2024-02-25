@@ -10,8 +10,8 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.typing import ConfigType
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
-from ThermiaOnlineAPI import Thermia
-from ThermiaOnlineAPI.api.ThermiaAPI import ThermiaAPI
+from .ThermiaOnlineAPI import Thermia
+from .ThermiaOnlineAPI.api.ThermiaAPI import ThermiaAPI
 
 from .const import API_TYPE, API_TYPE_CLASSIC, CONF_PASSWORD, CONF_USERNAME, DOMAIN
 

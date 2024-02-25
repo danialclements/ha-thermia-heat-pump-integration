@@ -1,13 +1,13 @@
 # Thermia Heat Pump Integration
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/klejejs/ha-thermia-heat-pump-integration?style=for-the-badge)](https://github.com/klejejs/ha-thermia-heat-pump-integration/releases)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/klejejs/ha-thermia-heat-pump-integration?style=for-the-badge)](https://github.com/klejejs/ha-thermia-heat-pump-integration/commits)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/danialclements/ha-thermia-heat-pump-integration?style=for-the-badge)](https://github.com/danialclements/ha-thermia-heat-pump-integration/releases)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/danialclements/ha-thermia-heat-pump-integration?style=for-the-badge)](https://github.com/danialclements/ha-thermia-heat-pump-integration/commits)
 [![License](https://img.shields.io/github/license/custom-components/blueprint.svg?style=for-the-badge)](LICENSE)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
-Thermia Heat Pump Integration for Home Assistant. Depends on [Python Thermia Online API](https://github.com/klejejs/python-thermia-online-api).
+Thermia Heat Pump Integration for Home Assistant. Depends on [Python Thermia Online API](https://github.com/danialclements/python-thermia-online-api).
 
-_Component to integrate with [Thermia Heat Pump](https://github.com/klejejs/ha-thermia-heat-pump-integration)._
+_Component to integrate with [Thermia Heat Pump](https://github.com/danialclements/ha-thermia-heat-pump-integration)._
 
 **This component will set up the following platforms.**
 

@@ -5,7 +5,7 @@ import voluptuous as vol
 
 import homeassistant.helpers.config_validation as cv
 from homeassistant import config_entries
-from ThermiaOnlineAPI import AuthenticationException, Thermia
+from .ThermiaOnlineAPI import AuthenticationException, Thermia
 
 from .const import (
     API_TYPE,

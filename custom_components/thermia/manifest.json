@@ -3,15 +3,13 @@
   "name": "Thermia Heat Pump",
   "after_dependencies": [],
   "codeowners": [
-    "@klejejs"
+    "@danialclements"
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/klejejs/ha-thermia-heat-pump-integration",
+  "documentation": "https://github.com/danialclements/ha-thermia-heat-pump-integration",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/klejejs/ha-thermia-heat-pump-integration/issues",
-  "requirements": [
-    "ThermiaOnlineAPI==4.1.1"
-  ],
+  "issue_tracker": "https://github.com/danialclements/ha-thermia-heat-pump-integration/issues",
+  "requirements": [],
   "version": "1.0"
 }
