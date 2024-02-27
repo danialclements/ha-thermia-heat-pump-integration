@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "fbccbd0ff76790e563d3a944d4aa9417"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "identifiers": [
+          [
+            "sun",
+            "fbccbd0ff76790e563d3a944d4aa9417"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "ccbca7c64f5e2ff6ff4e8a32ca4cecad",
+        "identifiers": [
+          [
+            "cast",
+            "d715b434c617855479009b9faa5f5e2e"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Home Mini",
+        "name_by_user": null,
+        "name": "Master Bedroom Speaker",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "47391659d091514d50919c018a9befb9",
+        "identifiers": [
+          [
+            "cast",
+            "a21875132ee626fa4eca38381b29a066"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Master Bedroom TV",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "d55f2cc0547a3773cd1ba6043af84989",
+        "identifiers": [
+          [
+            "cast",
+            "249538e0086ab2748422688d03359883"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Sitting Room TV",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a3fbaa375d0069b6d7bf682ace477562",
+        "identifiers": [
+          [
+            "cast",
+            "b794794ecc7bd9dd2cead6493fd55d12"
+          ]
+        ],
+        "manufacturer": "Google",
+        "model": "UK 2K Android TV",
+        "name_by_user": null,
+        "name": "UK 2K Android TV",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "eb4301f94685f8e991c83c31ac2441c7",
+        "identifiers": [
+          [
+            "cast",
+            "4e269669b3cb47d19117765b2494307c"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "Downstairs Speakers",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "822a6864508a7fb444d24bfea6d932fb",
+        "identifiers": [
+          [
+            "cast",
+            "49854a4d7b1947bfaa10b21a32cdb460"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "All Speakers",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "5aedfd166cf5cddda1f763a16294d133",
+        "identifiers": [
+          [
+            "cast",
+            "92f3db3f997f4f158b2f6e915d4147c8"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "All Speakers",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e98ac6bb4b654692e11489c186fe0af6",
+        "identifiers": [
+          [
+            "cast",
+            "08587f8032ae4698ac5076936c8cabc4"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Cast Group",
+        "name_by_user": null,
+        "name": "Downstairs",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3e7a4f73a6b81fe1125c5b47fbad8dc5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "15d428a4b07545e31d866aa7d37d99be",
+        "identifiers": [
+          [
+            "cast",
+            "dadece2a187b80a3be97b07c85878e8e"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Google Nest Hub",
+        "name_by_user": null,
+        "name": "Kitchen display",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5e61ae7f9d2235d55666993662182403"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "317619ae425661b530e62c16b068e077",
+        "identifiers": [
+          [
+            "thermia",
+            "1534442"
+          ]
+        ],
+        "manufacturer": "Thermia",
+        "model": "NCP 1024",
+        "name_by_user": null,
+        "name": "Cremartin",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

@@ -8,7 +8,7 @@ import json
 import hashlib
 from typing import Dict, Optional
 
-from ThermiaOnlineAPI.const import (
+from ..const import (
     REG_GROUP_HOT_WATER,
     REG_GROUP_OPERATIONAL_OPERATION,
     REG_GROUP_OPERATIONAL_STATUS,

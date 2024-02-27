@@ -1,9 +1,9 @@
 from typing import List
 
-from ThermiaOnlineAPI.api.ThermiaAPI import ThermiaAPI
-from ThermiaOnlineAPI.exceptions import AuthenticationException, NetworkException
-from ThermiaOnlineAPI.model.HeatPump import ThermiaHeatPump
-from ThermiaOnlineAPI.const import THERMIA_API_TYPE_CLASSIC
+from .api.ThermiaAPI import ThermiaAPI
+from .exceptions import AuthenticationException, NetworkException
+from .model.HeatPump import ThermiaHeatPump
+from .const import THERMIA_API_TYPE_CLASSIC
 
 
 class Thermia:

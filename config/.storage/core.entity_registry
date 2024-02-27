@@ -1,0 +1,1244 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.entity_registry",
+  "data": {
+    "entities": [
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dawn",
+        "hidden_by": null,
+        "icon": null,
+        "id": "382ef07013167a0009fa4cd3748a633f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dawn",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dawn",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_dawn",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_dusk",
+        "hidden_by": null,
+        "icon": null,
+        "id": "300f5c9773c8b9cdd52d7028187b6728",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next dusk",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_dusk",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_dusk",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_midnight",
+        "hidden_by": null,
+        "icon": null,
+        "id": "428b7183f9f94665bbbc4d4b0244c99b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next midnight",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_midnight",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_midnight",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_noon",
+        "hidden_by": null,
+        "icon": null,
+        "id": "cf66383bf4320936e1a7e2cccc83e468",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next noon",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_noon",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_noon",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "82ada5ec297c8119e67067b5e9fbb3cd",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_rising",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_next_setting",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ef5c7d2c08f52bef1af69d796c47be60",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "timestamp",
+        "original_icon": null,
+        "original_name": "Next setting",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "next_setting",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-next_setting",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_elevation",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2ba4d14da50fce6bdbb9c1b589b74e4f",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar elevation",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_elevation",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-solar_elevation",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_azimuth",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b5de40ef3551df384476387a015a8f0c",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar azimuth",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_azimuth",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-solar_azimuth",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "fbccbd0ff76790e563d3a944d4aa9417",
+        "device_class": null,
+        "device_id": "3e08123e0e6282ceaafe5f1b006546cb",
+        "disabled_by": "integration",
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.sun_solar_rising",
+        "hidden_by": null,
+        "icon": null,
+        "id": "454f468157ede85ca5324d89b9bcbd8a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Solar rising",
+        "platform": "sun",
+        "supported_features": 0,
+        "translation_key": "solar_rising",
+        "unique_id": "fbccbd0ff76790e563d3a944d4aa9417-solar_rising",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "ccbca7c64f5e2ff6ff4e8a32ca4cecad",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.master_bedroom_speaker",
+        "hidden_by": null,
+        "icon": null,
+        "id": "2b6eff9b9cefc2c6a0954630a4852e4e",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "d715b434-c617-8554-7900-9b9faa5f5e2e",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "47391659d091514d50919c018a9befb9",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.master_bedroom_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "76d5915ee00b4280f08f7a78c94b8942",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "a2187513-2ee6-26fa-4eca-38381b29a066",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "d55f2cc0547a3773cd1ba6043af84989",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.sitting_room_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "61267f7d05d0254de56a5d9d4a9eb0fd",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "249538e0-086a-b274-8422-688d03359883",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "a3fbaa375d0069b6d7bf682ace477562",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.uk_2k_android_tv",
+        "hidden_by": null,
+        "icon": null,
+        "id": "817d26b62b28b91ca5083eb7f7d2604b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "b794794e-cc7b-d9dd-2cea-d6493fd55d12",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "eb4301f94685f8e991c83c31ac2441c7",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.downstairs_speakers",
+        "hidden_by": null,
+        "icon": null,
+        "id": "bf09f0a7fb1432d7dcf63823ffce8bb5",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "4e269669-b3cb-47d1-9117-765b2494307c",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "822a6864508a7fb444d24bfea6d932fb",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.all_speakers",
+        "hidden_by": null,
+        "icon": null,
+        "id": "d13207e98458a17ff91aefef0f9501a0",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "49854a4d-7b19-47bf-aa10-b21a32cdb460",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "5aedfd166cf5cddda1f763a16294d133",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.all_speakers_2",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a10cb21d9c831d260af8ff2c966e0b7a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "92f3db3f-997f-4f15-8b2f-6e915d4147c8",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "e98ac6bb4b654692e11489c186fe0af6",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.downstairs",
+        "hidden_by": null,
+        "icon": null,
+        "id": "eaf6a6da7bce078791bbc800e0ab576a",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "speaker",
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "08587f80-32ae-4698-ac50-76936c8cabc4",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {},
+        "config_entry_id": "3e7a4f73a6b81fe1125c5b47fbad8dc5",
+        "device_class": null,
+        "device_id": "15d428a4b07545e31d866aa7d37d99be",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "media_player.kitchen_display",
+        "hidden_by": null,
+        "icon": null,
+        "id": "618c63019f7a78dfd79a0fba81e3cdf2",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": null,
+        "platform": "cast",
+        "supported_features": 131968,
+        "translation_key": null,
+        "unique_id": "dadece2a-187b-80a3-be97-b07c85878e8e",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": null,
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "person.test",
+        "hidden_by": null,
+        "icon": null,
+        "id": "1f2a4e718f222ff6d8b87485f923673f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "test",
+        "platform": "person",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "test",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "9d830f4502a4504ade5ee406054e97e9",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "todo.shopping_list",
+        "hidden_by": null,
+        "icon": null,
+        "id": "c7dd4715ddb5af9cf0a77c442ccc103b",
+        "has_entity_name": true,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:cart",
+        "original_name": "Shopping List",
+        "platform": "shopping_list",
+        "supported_features": 15,
+        "translation_key": "shopping_list",
+        "unique_id": "9d830f4502a4504ade5ee406054e97e9",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "c2a725e51e19152546fb38859bfff51d",
+        "device_class": null,
+        "device_id": null,
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "tts.google_en_com",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0037f272aeee5c36d89e3dce4ed0fcc9",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": null,
+        "original_name": "Google en com",
+        "platform": "google_translate",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "c2a725e51e19152546fb38859bfff51d",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "sensor.cremartin_active_alarms",
+        "hidden_by": null,
+        "icon": null,
+        "id": "177bc23ae1391606f7d728e13f019940",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:bell-alert",
+        "original_name": "Cremartin Active Alarms",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_active_alarms",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_heat_target_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "b8c1b97a489f95f8f5546209d1512e26",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Heat Target Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_heat_target_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_outdoor_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "f5dd68801f7a681b1f24af13dcf71540",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Outdoor Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_outdoor_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_hot_water_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a5b9f332d3b220e4bf3adcde53178b36",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Hot Water Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_hot_water_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_supply_line_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "5e5f251cb92a908da1e440309949f039",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Supply Line Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_supply_line_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_desired_supply_line_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "a64e624f1ad3daef357e5f306e8ef419",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Desired Supply Line Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_desired_supply_line_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_return_line_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "88107fbfb232ea39bc18e9299c5f5a89",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Return Line Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_return_line_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_brine_out_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7daa46586a3a2dca3bc586fab3cf5d5b",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Brine Out Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_brine_out_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "measurement"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_brine_in_temperature",
+        "hidden_by": null,
+        "icon": null,
+        "id": "0f4ef08a7231966cbdcf4231187bae2a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "temperature",
+        "original_icon": "mdi:thermometer",
+        "original_name": "Cremartin Brine In Temperature",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_brine_in_temperature",
+        "previous_unique_id": null,
+        "unit_of_measurement": "°C"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_compressor_operational_time",
+        "hidden_by": null,
+        "icon": null,
+        "id": "7cbac0c1eae997b4e1299656a6861874",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer-cog-outline",
+        "original_name": "Cremartin Compressor Operational Time",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_compressor_operational_time",
+        "previous_unique_id": null,
+        "unit_of_measurement": "h"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_hot_water_operational_time",
+        "hidden_by": null,
+        "icon": null,
+        "id": "6e0881eba0b95c758c17f7369cceefa1",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer-cog-outline",
+        "original_name": "Cremartin Hot Water Operational Time",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_hot_water_operational_time",
+        "previous_unique_id": null,
+        "unit_of_measurement": "h"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_auxiliary_heater_1_operational_time",
+        "hidden_by": null,
+        "icon": null,
+        "id": "71f7500c540eb4c6676af121a16b57a1",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer-cog-outline",
+        "original_name": "Cremartin Auxiliary Heater 1 Operational Time",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_auxiliary_heater_1_operational_time",
+        "previous_unique_id": null,
+        "unit_of_measurement": "h"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "state_class": "total_increasing"
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": "diagnostic",
+        "entity_id": "sensor.cremartin_auxiliary_heater_2_operational_time",
+        "hidden_by": null,
+        "icon": null,
+        "id": "fa5d615dfa068d1c283daa5adf5aa092",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:timer-cog-outline",
+        "original_name": "Cremartin Auxiliary Heater 2 Operational Time",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_auxiliary_heater_2_operational_time",
+        "previous_unique_id": null,
+        "unit_of_measurement": "h"
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": {
+          "min_temp": 0,
+          "max_temp": 50,
+          "operation_list": []
+        },
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "water_heater.cremartin",
+        "hidden_by": null,
+        "icon": null,
+        "id": "ff18e316a202d1ec71765b1673e01ecf",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": null,
+        "original_icon": "mdi:water-pump",
+        "original_name": "Cremartin",
+        "platform": "thermia",
+        "supported_features": 3,
+        "translation_key": null,
+        "unique_id": "1534442",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.cremartin_cooling_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "8c05d4d9b56289398dfc11485e83095f",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": "mdi:information-outline",
+        "original_name": "Cremartin Cooling Status",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_cooling_status",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.cremartin_hot_water_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "3063c92e06350bf2a28099ec52a87533",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": "mdi:information-outline",
+        "original_name": "Cremartin Hot Water Status",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_hot_water_status",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "binary_sensor.cremartin_heating_status",
+        "hidden_by": null,
+        "icon": null,
+        "id": "edd5e9aad01879705434dfeed0d4e60a",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": false
+          }
+        },
+        "original_device_class": "running",
+        "original_icon": "mdi:information-outline",
+        "original_name": "Cremartin Heating Status",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_heating_status",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.cremartin_hot_water",
+        "hidden_by": null,
+        "icon": null,
+        "id": "dfb3ecfe52271fe7bc4dcf436e2a5bbd",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:water-boiler",
+        "original_name": "Cremartin Hot Water",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_hot_water",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      },
+      {
+        "aliases": [],
+        "area_id": null,
+        "capabilities": null,
+        "config_entry_id": "5e61ae7f9d2235d55666993662182403",
+        "device_class": null,
+        "device_id": "317619ae425661b530e62c16b068e077",
+        "disabled_by": null,
+        "entity_category": null,
+        "entity_id": "switch.cremartin_hot_water_boost",
+        "hidden_by": null,
+        "icon": null,
+        "id": "66fcd16dc0d3d9947e55d4cc5337564d",
+        "has_entity_name": false,
+        "name": null,
+        "options": {
+          "conversation": {
+            "should_expose": true
+          }
+        },
+        "original_device_class": "switch",
+        "original_icon": "mdi:waves-arrow-up",
+        "original_name": "Cremartin Hot Water Boost",
+        "platform": "thermia",
+        "supported_features": 0,
+        "translation_key": null,
+        "unique_id": "Cremartin_hot_water_boost",
+        "previous_unique_id": null,
+        "unit_of_measurement": null
+      }
+    ],
+    "deleted_entities": []
+  }
+}

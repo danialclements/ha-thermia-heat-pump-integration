@@ -6,7 +6,7 @@ from ..utils.utils import pretty_print_except
 
 from typing import TYPE_CHECKING, Dict, List, Optional
 
-from ThermiaOnlineAPI.const import (
+from ..const import (
     REG_BRINE_IN,
     REG_BRINE_OUT,
     REG_ACTUAL_POOL_TEMP,

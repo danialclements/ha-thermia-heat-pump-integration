@@ -1,0 +1,20 @@
+version: '3'
+services:
+  homeassistant:
+    container_name: homeassistant-test
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./config:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /run/dbus:/run/dbus:ro
+    environment:
+      - TZ=Europe/Dublin
+      - REQUIRED_PYTHON_VER=3.10
+    healthcheck:
+      test: 'curl -m 90 -sLf http://localhost:8123 || date >> /config/healthcheck'
+      interval: 90s
+      timeout: 60s
+      retries: 2
+    privileged: true
+    network_mode: host

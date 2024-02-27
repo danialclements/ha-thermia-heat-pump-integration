@@ -1,0 +1,87 @@
+2024-02-26 19:17:24.147 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration thermia which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2024-02-26 19:17:25.155 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-02-26 19:17:25.186 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=1 from 2024-02-26 19:17:01.648867)
+2024-02-26 19:17:27.994 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:17:32.997 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:17:37.634 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:17:42.638 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:17:56.550 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:18:01.552 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:18:07.058 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:07.058 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:07.274 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:07.274 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:09.520 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Radio Browser for radio_browser
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 444, in async_setup
+    result = await component.async_setup_entry(hass, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/radio_browser/__init__.py", line 26, in async_setup_entry
+    await radios.stats()
+  File "/usr/local/lib/python3.12/site-packages/radios/radio_browser.py", line 123, in stats
+    response = await self._request("stats")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/backoff/_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/radios/radio_browser.py", line 74, in _request
+    result = await resolver.query("_api._tcp.radio-browser.info", "SRV")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+2024-02-26 19:18:10.910 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from ip6-localhost (::1). Requested URL: '/api/onboarding/installation_type'. (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36)
+2024-02-26 19:18:18.063 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:18.063 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:18.072 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:18.072 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:25.695 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:18:30.697 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:18:42.929 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:18:47.931 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:18:48.245 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:48.245 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:48.257 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:18:48.258 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:18:56.840 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:19:01.246 ERROR (MainThread) [homeassistant.config_entries] Error occurred loading flow for integration thermia: No module named 'ThermiaOnlineAPI'
+2024-02-26 19:19:01.843 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:19:15.993 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:19:17.134 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:19:17.134 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:19:17.137 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:19:17.137 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:19:20.994 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:19:42.955 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:19:47.956 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:19:56.869 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:20:01.870 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:20:07.444 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:20:07.444 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:20:07.445 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:20:07.445 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:20:15.850 WARNING (MainThread) [bluetooth_auto_recovery.recover] Could not cycle the Bluetooth adapter hci0 [A4:34:D9:2E:91:08]: [Errno 132] No error information
+2024-02-26 19:20:18.197 ERROR (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:20:18.198 WARNING (Thread-7) [pychromecast.socket_client] [UK 2K Android TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:20:18.202 ERROR (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error reading from socket.
+2024-02-26 19:20:18.202 WARNING (Thread-5) [pychromecast.socket_client] [Master Bedroom TV(192.168.1.128):8009] Error communicating with socket, resetting connection
+2024-02-26 19:20:20.852 WARNING (MainThread) [bluetooth_auto_recovery.recover] Bluetooth adapter hci0 [A4:34:D9:2E:91:08] could not be reset: 
+2024-02-26 19:20:21.288 WARNING (MainThread) [homeassistant.core] Task <Task pending name='Task-1344' coro=<ConfigEntry._async_setup_again() running at /usr/src/homeassistant/homeassistant/config_entries.py:536> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.remove()]> was still running after final writes shutdown stage; Integrations should cancel non-critical tasks when receiving the stop event to prevent delaying shutdown
+2024-02-26 19:20:21.289 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry A4:34:D9:2E:91:08 for bluetooth
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 444, in async_setup
+    result = await component.async_setup_entry(hass, self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/src/homeassistant/homeassistant/components/bluetooth/__init__.py", line 300, in async_setup_entry
+    await scanner.async_start()
+  File "src/habluetooth/scanner.py", line 233, in async_start
+  File "src/habluetooth/scanner.py", line 234, in habluetooth.scanner.HaScanner.async_start
+  File "src/habluetooth/scanner.py", line 306, in _async_start
+  File "src/habluetooth/scanner.py", line 394, in _async_reset_adapter
+  File "/usr/local/lib/python3.12/site-packages/habluetooth/util.py", line 13, in async_reset_adapter
+    return await recover_adapter(adapter_id, mac_address)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/bluetooth_auto_recovery/recover.py", line 410, in recover_adapter
+    await asyncio.sleep(DBUS_REGISTER_TIME)
+  File "/usr/local/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError: Home Assistant final writes shutdown stage
